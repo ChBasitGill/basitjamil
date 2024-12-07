@@ -2,7 +2,8 @@
 slug: my-first-docusaurus-app
 title: My First Docusaurus App
 authors: [basit]
-tags: [docusaurus, static-site, github-pages, nodejs]
+tags: [docusaurus, react, github-pages, nodejs]
+
 ---
 
 # My First Docusaurus App
@@ -89,6 +90,7 @@ Here are some of the key things I learned during this process:
 Docusaurus is a great tool for creating developer-friendly documentation or static sites.
 Automating deployments using GitHub Actions saves a lot of time and effort.
 Hosting on GitHub Pages is seamless and perfect for open-source projects.
-🌐 Check It Out!
+
+## 🌐 Check It Out!
 
 You can check out my live site here: [Basit Jamil](https://chbasitgill.github.io/basitjamil/).
