@@ -30,7 +30,7 @@ const config: Config = {
     defaultLocale: "en",
     locales: ["en"],
   },
-
+  plugins: ["plugin-image-zoom"],
   presets: [
     [
       "classic",
@@ -63,14 +63,14 @@ const config: Config = {
       } satisfies Preset.Options,
     ],
   ],
-
+  themes: ["@saucelabs/theme-github-codeblock"],
   themeConfig: {
     // Replace with your project's social card
     image: "img/docusaurus-social-card.jpg",
     navbar: {
-      title: "My Site",
+      title: "Basit Jamil",
       logo: {
-        alt: "My Site Logo",
+        alt: "Basit Jamil Site Logo",
         src: "img/logo.svg",
       },
       items: [
@@ -82,7 +82,7 @@ const config: Config = {
         },
         { to: "/blog", label: "Blog", position: "left" },
         {
-          href: "https://github.com/facebook/docusaurus",
+          href: "https://github.com/ChBasitGill",
           label: "GitHub",
           position: "right",
         },
@@ -136,6 +136,19 @@ const config: Config = {
     prism: {
       theme: prismThemes.github,
       darkTheme: prismThemes.dracula,
+    },
+    imageZoom: {
+      // CSS selector to apply the plugin to, defaults to '.markdown img'
+      selector: ".markdown img",
+      // Optional medium-zoom options
+      // see: https://www.npmjs.com/package/medium-zoom#options
+      options: {
+        margin: 24,
+        background: "#BADA55",
+        scrollOffset: 0,
+        container: "#zoom-container",
+        template: "#zoom-template",
+      },
     },
   } satisfies Preset.ThemeConfig,
 };
