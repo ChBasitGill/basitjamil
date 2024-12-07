@@ -76,12 +76,12 @@ const config: Config = {
         src: "img/logo.svg",
       },
       items: [
-        {
-          type: "docSidebar",
-          sidebarId: "tutorialSidebar",
-          position: "left",
-          label: "Tutorial",
-        },
+        // {
+        //   type: "docSidebar",
+        //   sidebarId: "tutorialSidebar",
+        //   position: "left",
+        //   label: "Tutorial",
+        // },
         { to: "/blog", label: "Blog", position: "left" },
         {
           href: "https://github.com/ChBasitGill",
@@ -93,29 +93,29 @@ const config: Config = {
     footer: {
       style: "dark",
       links: [
-        {
-          title: "Docs",
-          items: [
-            {
-              label: "Tutorial",
-              to: "/docs/intro",
-            },
-          ],
-        },
+        // {
+        //   title: "Docs",
+        //   items: [
+        //     {
+        //       label: "Tutorial",
+        //       to: "/docs/intro",
+        //     },
+        //   ],
+        // },
         {
           title: "Community",
           items: [
             {
               label: "Stack Overflow",
-              href: "https://stackoverflow.com/questions/tagged/docusaurus",
+              href: "https://stackoverflow.com/users/28675974/basit-jamil?tab=profile",
             },
             {
               label: "Discord",
-              href: "https://discordapp.com/invite/docusaurus",
+              href: "https://discordapp.com/invite/papa07445",
             },
             {
               label: "X",
-              href: "https://x.com/docusaurus",
+              href: "https://x.com/gillbasit",
             },
           ],
         },
@@ -128,12 +128,12 @@ const config: Config = {
             },
             {
               label: "GitHub",
-              href: "https://github.com/facebook/docusaurus",
+              href: "https://github.com/ChBasitGill",
             },
           ],
         },
       ],
-      copyright: `Copyright © ${new Date().getFullYear()} My Project, Inc. Built with Docusaurus.`,
+      copyright: `Built with Docusaurus.`,
     },
     prism: {
       theme: prismThemes.github,
