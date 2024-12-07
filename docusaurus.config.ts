@@ -10,7 +10,7 @@ const config: Config = {
   favicon: "img/favicon.ico",
 
   // Set the production url of your site here
-  url: "https://chbasitgill.github.io/basitjamil/",
+  url: "https://chbasitgill.github.io/",
   // Set the /<baseUrl>/ pathname under which your site is served
   // For GitHub pages deployment, it is often '/<projectName>/'
   baseUrl: "/basitjamil/",
@@ -30,7 +30,7 @@ const config: Config = {
     defaultLocale: "en",
     locales: ["en"],
   },
-  plugins: ["plugin-image-zoom"],
+  plugins: [require.resolve("docusaurus-lunr-search"), "plugin-image-zoom"],
   presets: [
     [
       "classic",

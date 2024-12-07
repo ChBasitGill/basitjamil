@@ -1,29 +1,94 @@
 ---
-slug: welcome
-title: Welcome
-authors: [slorber, yangshun]
-tags: [facebook, hello, docusaurus]
+slug: my-first-docusaurus-app
+title: My First Docusaurus App
+authors: [basit]
+tags: [docusaurus, static-site, github-pages, nodejs]
 ---
 
-[Docusaurus blogging features](https://docusaurus.io/docs/blog) are powered by the [blog plugin](https://docusaurus.io/docs/api/plugins/@docusaurus/plugin-content-blog).
+# My First Docusaurus App
 
-Here are a few tips you might find useful.
+Hello everyone! 👋 Today, I’m thrilled to share my experience creating my first app using **Docusaurus**, a static site generator that simplifies building, deploying, and maintaining websites.
 
-<!-- truncate -->
+## 🎉 Getting Started
 
-Simply add Markdown files (or folders) to the `blog` directory.
+To start, I ran the following script to create my app:
 
-Regular blog authors can be added to `authors.yml`.
+```bash
+npx create-docusaurus@latest basitjamil classic
+```
 
-The blog post date can be extracted from filenames, such as:
+This command initialized a project in a directory called basitjamil using the classic preset. It comes with pre-configured templates and settings, making it beginner-friendly and perfect for building feature-rich websites.
 
-- `2019-05-30-welcome.md`
-- `2019-05-30-welcome/index.md`
+## 🚀 Hosting on GitHub Pages
 
-A blog post folder can be convenient to co-locate blog post images:
+I also wanted to deploy my app on GitHub Pages. Here’s the workflow I used to automate deployment:
 
-![Docusaurus Plushie](./docusaurus-plushie-banner.jpeg)
+```yaml
+# Simple workflow for deploying static content to GitHub Pages
+name: Deploy static content to Pages
 
-The blog supports tags as well!
+on:
+  push:
+    branches: ["master"]
 
-**And if you don't want a blog**: just delete this directory, and use `blog: false` in your Docusaurus config.
+  workflow_dispatch:
+
+permissions:
+  contents: read
+  pages: write
+  id-token: write
+
+concurrency:
+  group: "pages"
+  cancel-in-progress: false
+
+env:
+  NODE_OPTIONS: --max-old-space-size=6144
+
+jobs:
+  deploy:
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Set up Node.js
+        uses: actions/setup-node@v3
+        with:
+          node-version: 18
+
+      - name: Install dependencies
+        run: npm install
+
+      - name: Build site
+        run: npm run build
+
+      - name: Setup Pages
+        uses: actions/configure-pages@v5
+
+      - name: Upload artifact
+        uses: actions/upload-pages-artifact@v3
+        with:
+          path: "build"
+
+      - name: Deploy to GitHub Pages
+        id: deployment
+        uses: actions/deploy-pages@v4
+
+```
+
+This workflow ensures that every time I push changes to the master branch, my site gets built and deployed automatically to GitHub Pages. Isn’t that awesome? 🎉
+
+## 💡 My Learnings
+
+Here are some of the key things I learned during this process:
+
+Docusaurus is a great tool for creating developer-friendly documentation or static sites.
+Automating deployments using GitHub Actions saves a lot of time and effort.
+Hosting on GitHub Pages is seamless and perfect for open-source projects.
+🌐 Check It Out!
+
+You can check out my live site here: [Basit Jamil](https://chbasitgill.github.io/basitjamil/).
