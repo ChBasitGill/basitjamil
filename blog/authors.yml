@@ -1,8 +1,8 @@
 basit:
-  name: Basit Jamil
-  title: Software Engineer @ SEB
-  url: https://github.com/chbasitgill
-  image_url: https://github.com/CHBASITGILL.png
-  page: true
-  socials:
-    github: chbasitgill
+    name: Basit Jamil
+    title: Software Engineer @ SEB
+    url: https://github.com/chbasitgill
+    image_url: https://github.com/CHBASITGILL.png
+    page: true
+    socials:
+        github: chbasitgill

@@ -1,19 +1,19 @@
 docusaurus:
-  label: Docusaurus
-  permalink: /docusaurus
-  description: Docusaurus tag description
+    label: Docusaurus
+    permalink: /docusaurus
+    description: Docusaurus tag description
 
 react:
-  label: React
-  permalink: /react
-  description: React tag description
+    label: React
+    permalink: /react
+    description: React tag description
 
 github-pages:
-  label: GitHub Pages
-  permalink: /github-pages
-  description: GitHub Pages tag description
+    label: GitHub Pages
+    permalink: /github-pages
+    description: GitHub Pages tag description
 
 nodejs:
-  label: Node.js
-  permalink: /nodejs
-  description: Node.js tag description
+    label: Node.js
+    permalink: /nodejs
+    description: Node.js tag description
