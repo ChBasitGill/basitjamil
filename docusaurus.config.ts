@@ -72,14 +72,6 @@ const config: Config = {
         mode: "auto",
       },
     ],
-    [
-      "rsdoctor",
-      {
-        rsdoctorOptions: {
-          mode: "lite",
-        },
-      },
-    ],
   ],
   presets: [
     [

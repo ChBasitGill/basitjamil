@@ -20,7 +20,6 @@
     "@docusaurus/plugin-content-docs": "^3.6.3",
     "@docusaurus/plugin-content-pages": "^3.6.3",
     "@docusaurus/plugin-pwa": "^3.6.3",
-    "@docusaurus/plugin-rsdoctor": "^3.6.3",
     "@docusaurus/plugin-sitemap": "^3.6.3",
     "@docusaurus/plugin-vercel-analytics": "^3.6.3",
     "@docusaurus/preset-classic": "3.6.3",
