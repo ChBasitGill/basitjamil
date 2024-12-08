@@ -13,8 +13,6 @@ Hello everyone! 👋 Today, I want to share my experience creating my first app 
 
 <!-- truncate -->
 
-ß
-
 ## 🎉 Getting Started
 
 To start, I ran the following script to create my app:
