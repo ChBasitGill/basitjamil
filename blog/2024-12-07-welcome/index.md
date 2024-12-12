@@ -8,7 +8,7 @@ tags: [docusaurus, react, github-pages, nodejs]
 # Docusaurus App
 
 Hello everyone! 👋 Today, I want to share my experience creating my first app using **Docusaurus**, a static site generator that simplifies building, deploying, and maintaining websites.
-Hello World
+Hello World!!!
 
 ---
 
