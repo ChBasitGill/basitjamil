@@ -8,7 +8,6 @@ tags:
 
 # 2025 Resolution : Guiding the Community on Setting Up Enterprise-Level Applications
 
-Note: I will be uploading and adding links to this blog
 As 2025 approaches, I am thrilled to announce my upcoming project: a comprehensive guide on setting up enterprise-level applications. This initiative will be a cornerstone of my personal resolution to give back to the community by sharing knowledge and empowering others to build scalable, maintainable, and robust applications.
 
 ## Why This Project?
@@ -23,63 +22,63 @@ The project will focus on building an enterprise-ready Angular application, but 
 
 ### NX for Workspace Management
 
-#### Setting up a monorepo using NX.
+- Setting up a monorepo using NX.
 
-#### Managing multiple applications and libraries efficiently.
+- Managing multiple applications and libraries efficiently.
 
-#### Leveraging NX tools for testing and builds.
+- Leveraging NX tools for testing and builds.
 
 ### 2. State Management with NgRx
 
-#### Implementing NgRx for predictable state management.
+- Implementing NgRx for predictable state management.
 
-#### Structuring feature modules and effects for scalability.
+- Structuring feature modules and effects for scalability.
 
 ### 3. Data Presentation with AG Grid and PrimeNG
 
-#### Using AG Grid for data-intensive applications.
+- Using AG Grid for data-intensive applications.
 
-#### Building user-friendly interfaces with PrimeNG.
+- Building user-friendly interfaces with PrimeNG.
 
 ### 4. Micro Frontends with Module Federation
 
-#### Breaking down applications into independent, shareable modules.
+- Breaking down applications into independent, shareable modules.
 
-#### Configuring module federation for Angular projects.
+- Configuring module federation for Angular projects.
 
 ### 5. Component Libraries with Storybook
 
-#### Creating a design system and reusable components.
+- Creating a design system and reusable components.
 
-#### Documenting components for consistency and collaboration.
+- Documenting components for consistency and collaboration.
 
 ### 6. Automation and Quality Control
 
-#### Enforcing coding standards with commit linting and ESLint.
+- Enforcing coding standards with commit linting and ESLint.
 
-#### Automating versioning and release notes using Release It.
+- Automating versioning and release notes using Release It.
 
 ### 7. CI/CD with Vercel
 
-#### Deploying applications with a reliable CI/CD pipeline.
+- Deploying applications with a reliable CI/CD pipeline.
 
-#### Optimizing build and deployment processes.
+- Optimizing build and deployment processes.
 
 ### 8. Developer Productivity
 
-#### Setting up VSCode with essential extensions.
+- Setting up VSCode with essential extensions.
 
-#### Tips and tricks for debugging, code navigation, and more.
+- Tips and tricks for debugging, code navigation, and more.
 
-#### How Will It Be Structured?
+- How Will It Be Structured?
 
-#### The project will be a multi-part series hosted on an open-source platform, with each part focusing on a specific feature or tool. Accompanying each post will be:
+- The project will be a multi-part series hosted on an open-source platform, with each part focusing on a specific feature or tool. Accompanying each post will be:
 
-#### Code examples: Real-world scenarios to demonstrate implementation.
+- Code examples: Real-world scenarios to demonstrate implementation.
 
-#### Commands and configurations: Step-by-step guides for setup.
+- Commands and configurations: Step-by-step guides for setup.
 
-#### Tips and best practices: Insights from years of enterprise development experience.
+- Tips and best practices: Insights from years of enterprise development experience.
 
 ## Why Open Source?
 
@@ -90,3 +89,5 @@ Open source has always been a powerful medium for collaboration and growth. By m
 This project is not just about me sharing knowledge; it’s about creating a community of learners and contributors. Together, we can build resources that will help developers worldwide deliver better applications.
 
 If you’re as excited about this as I am, stay tuned! I’ll be sharing updates, previews, and milestones along the way. Let’s make 2025 a year of learning, sharing, and growing together.
+
+Note: I will be uploading and adding links to this blog!
