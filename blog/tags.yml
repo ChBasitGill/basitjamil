@@ -1,19 +1,69 @@
 docusaurus:
     label: Docusaurus
     permalink: /docusaurus
-    description: Docusaurus tag description
+    description: A powerful tool for building project documentation and blogs, used for this guide.
 
-react:
-    label: React
-    permalink: /react
-    description: React tag description
+angular:
+    label: Angular
+    permalink: /angular
+    description: The core framework for building the enterprise-level application in this project.
+
+nx:
+    label: NX
+    permalink: /nx
+    description: A workspace management tool for scalable and maintainable monorepos.
+
+ngrx:
+    label: NgRx
+    permalink: /ngrx
+    description: State management library integrated for predictable application behavior.
+
+ag-grid:
+    label: AG Grid
+    permalink: /ag-grid
+    description: A powerful data grid solution for enterprise applications.
+
+rx:
+    label: RxJS
+    permalink: /rx
+    description: Reactive programming library used for handling asynchronous operations.
+
+primeng:
+    label: PrimeNG
+    permalink: /primeng
+    description: A rich UI component library for Angular applications.
 
 github-pages:
     label: GitHub Pages
     permalink: /github-pages
-    description: GitHub Pages tag description
+    description: An option for hosting project documentation or blogs.
 
 nodejs:
     label: Node.js
     permalink: /nodejs
-    description: Node.js tag description
+    description: Backend technology for server-side operations and build processes.
+
+storybook:
+    label: Storybook
+    permalink: /storybook
+    description: A tool for building and documenting reusable UI components.
+
+module-federation:
+    label: Module Federation
+    permalink: /module-federation
+    description: For creating micro-frontend architectures within Angular applications.
+
+eslint:
+    label: ESLint
+    permalink: /eslint
+    description: For maintaining code quality through linting.
+
+ci-cd:
+    label: CI/CD
+    permalink: /ci-cd
+    description: Continuous integration and delivery pipeline for seamless deployments.
+
+vercel:
+    label: Vercel
+    permalink: /vercel
+    description: A platform for deploying and managing web applications.
