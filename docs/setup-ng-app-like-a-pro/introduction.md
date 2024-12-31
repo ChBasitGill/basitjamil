@@ -6,18 +6,81 @@ sidebar_position: 1
 
 ## A Step-by-Step Guide to Setting Up Enterprise-Level Applications 🚀
 
-As I committed in my [2025 New Year Resolution blog](https://chbasitgill.github.io/basitjamil/blog/2025-resolution), it’s time to dive deeper into the details and bring you a hands-on, step-by-step tutorial series for building enterprise-level applications. This is where theory meets practice, and we transform concepts into real-world solutions. 🎯💻
+Welcome to my 2025 resolution to improve my Angular skills! This series will guide you through building a robust, scalable enterprise application with Angular. Each week, we'll focus on a specific aspect, ensuring practical, hands-on learning.
 
-Over the course of this series, I’ll guide you through every aspect of setting up a robust, scalable, and efficient enterprise application. Each post will focus on a specific technology or practice, ensuring clarity, depth, and actionable insights.
+### What's Inside? 📚
 
-### Why This Guide? 🌟
+Here's what we'll cover:
 
-I want to break down complex topics into manageable steps, so you can confidently apply them to your own projects.
+- **🚀 Week 1: Setting Up the Workspace**
 
-### What’s Inside? 📚
+    - 🛠️ Initialize NX workspace with Angular preset
+    - 📂 Set up a structured monorepo with clear folder hierarchy
+    - 🧹 Configure ESLint, commit lint, and Prettier for code quality
+    - 🔗 Create and link GitHub repository with automated CI workflows
+    - 📝 Write a README file with an overview of the project
 
-Here’s how we’ll tackle it:
+- **🔧 Week 3: Module Federation and Host App**
 
-- **Workspace Setup**
+    - 🏠 Set up the host application (Dashboard)
+    - ⚙️ Configure module federation for dynamic imports
+    - 🧭 Add basic navigation for micro-frontends
+    - 📦 Create shared libraries for utilities and services
+    - 🧪 Test communication between the host app and micro-frontends
 
-Each tutorial will include practical examples, code snippets, and insights to ensure you get a well-rounded understanding. By the end, you’ll have a fully functional, enterprise-ready application and a toolkit of skills for future projects.
+- **📋 Week 5: Building the To-Do Micro-Frontend**
+
+    - 🆕 Create a new micro-frontend for the To-Do application
+    - 🖥️ Use PrimeNG for dynamic UI components
+    - 🔄 Set up NgRx Signals for reactive state management
+    - ✏️ Add task creation, editing, deletion, and completion functionality
+    - ✅ Test and validate the micro-frontend independently
+
+- **📊 Week 7: Developing the Grid Micro-Frontend**
+
+    - 🗃️ Set up AG Grid for handling large datasets
+    - 📈 Integrate Highcharts for real-time data visualization
+    - ⚡ Optimize data fetching with TanStack Query
+    - 🔍 Implement dynamic filtering, sorting, and pagination
+    - 🧪 Test the micro-frontend with mock APIs
+
+- **⚡ Week 9: Performance Tuning and Optimizations**
+
+    - 💤 Implement lazy loading for modules and routes
+    - 📉 Reduce bundle size with advanced build configurations
+    - 🚀 Enable NX caching for incremental builds
+    - 🔄 Optimize change detection with Angular Signals
+    - 🧠 Analyze and reduce memory leaks in the application
+
+- **📖 Week 11: Component Documentation with Storybook**
+
+    - 📚 Set up Storybook for UI component documentation
+    - 📝 Write comprehensive documentation for shared modules
+    - ♿ Create accessibility tests for key components
+    - 🖼️ Add interactive examples for PrimeNG and AG Grid components
+    - 🌐 Publish Storybook to GitHub Pages for easy access
+
+- **🔄 Week 13: Automation and Testing**
+
+    - ⚡ Set up Vitest for fast and efficient unit testing
+    - 🧪 Add end-to-end tests with Cypress for user flows
+    - 🤖 Automate linting and testing in CI pipelines
+    - 📝 Implement Release It for version management and changelogs
+    - 📊 Ensure 90%+ code coverage across all micro-frontends
+
+- **🛠️ Week 15: Advanced Features and Third-Party Integrations**
+
+    - 🔄 Integrate SignalR for real-time updates in the app
+    - 🌐 Implement server-side rendering for better SEO
+    - 📊 Add Highcharts drilldown capabilities for detailed data exploration
+    - 🗃️ Use TanStack Query to cache API results for offline capabilities
+    - 🧩 Experiment with module federation across different repositories
+
+- **🚀 Week 17: Deployment and Finalization**
+    - ☁️ Deploy all micro-frontends and host app using Vercel
+    - 🔧 Configure environment variables for production builds
+    - 🧪 Perform stress testing to identify potential bottlenecks
+    - 📚 Finalize documentation and prepare user guides
+    - 🌍 Publish the app and open-source repository with detailed tutorials
+
+By the end of this series, you'll have a fully functional, enterprise-ready application and a toolkit of skills for future projects.
